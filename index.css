@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+}
+.card-body {
+  width: 350px;
+  height: 450px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 22px;
+}
+.img-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(17, 17, 228);
+  padding: 3px;
+}
+.images-sections {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+/* second part start */
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-desc > .desc-one {
+  font-size: 22px;
+  font-weight: 500;
+}
+.card-desc > .desc-two {
+  font-size: 16px;
+  font-weight: 300;
+}
+/* icons sections start  */
+.icons-sections {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 15px 0 0 0;
+}
+.icons-sections > span {
+  background-color: rgb(36, 87, 253);
+  padding: 0 18px;
+  margin: 10px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+/* icons sections ends */
+/* buttos section start here  */
+.buttons-sections {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.buttons-sections > button {
+  margin: 0 20px;
+  border: none;
+  background-color: #4860d8;
+  color: white;
+  padding: 11px 30px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.buttons-sections > button:hover {
+  background-color: #002aff;
+}
+/* buttos section ends here  */
+/* thousands section start here  */
+.text-sections {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.span-texts {
+  border-right: 2px solid grey;
+  padding: 0 12px;
+  color: #333;
+  font-size: 17px;
+}
+.span-texts:last-child {
+  border-right: none;
+}
+/* thousands section ends here  */
